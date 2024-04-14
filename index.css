@@ -1,0 +1,41 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15%;
+}
+#gitsearch {
+  height: 30px;
+  /* width: 500px; */
+  /* border: 2px solid black; */
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+}
+#gitsearch input {
+  background-color: antiquewhite;
+  width: 90%;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+}
+#gitsearch i {
+  font-size: large;
+}
+#gitsearch button {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+#display {
+  background-color: antiquewhite;
+  padding: 15px;
+  width: 80%;
+}
